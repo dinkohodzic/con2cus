@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/purple-green.css';
+body{
+  margin: 0;
+  font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.material-icons{
+  color: #4FC3F7;
+}
+.container {
+  display: flex;
+  flex-direction:  column ;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 10em;
+ text-align: center;
+ align-content: center;
+ vertical-align: middle;
+}
+ 

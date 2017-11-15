@@ -1,0 +1,23 @@
+/*.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 35%;
+    text-align: center;
+    justify-content: center;
+   
+}
+*/
+.container {
+    display: flex;
+    flex-direction:  column ;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    padding: 10em;
+   text-align: center;
+   align-content: center;
+   vertical-align: middle;
+}
+

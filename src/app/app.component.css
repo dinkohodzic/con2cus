@@ -1,0 +1,36 @@
+.app-sidenav{
+    min-width: 15%;
+    
+   
+}
+.navButton{
+    position: absolute;
+    left: .5em;
+    top: .5em;
+    z-index: 999;
+}
+
+.h1{
+    text-align: center;
+}
+
+
+.mat-button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    
+}
+.mat-list-item{
+    padding: 2em;
+}
+
+
+
+
+  
