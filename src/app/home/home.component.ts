@@ -9,10 +9,10 @@ import {MatCardModule} from '@angular/material/card';
   styleUrls: ['./home.component.css'],
   encapsulation: ViewEncapsulation.None,
   animations:[
-    trigger('anim1',[
+    trigger('home_anim_1',[
       transition('*=>*', [
-        query('.logo', style({opacity:0, transform: 'translateY(-100px)'})),
-        query('.logo',stagger('400ms',[
+        query('.logo', style({opacity:0, transform: 'translateY(-100%)'})),
+        query('.logo',stagger('500ms',[
           animate('500ms ease-in', style({opacity: 1, transform: 'translateY(0)'})),
         ])),
         query('.logo', [
@@ -20,11 +20,11 @@ import {MatCardModule} from '@angular/material/card';
         ])
       ])
     ]),
-    trigger('anim2',[
+    trigger('home_anim_2',[
       transition('*=>*', [
-        query('.cont', style({opacity:0, transform: 'translateX(-25%)'})),
-        query('.cont',stagger('400ms',[
-          animate('400ms ease-in', style({opacity: 1, transform: 'translateX(0)'})),
+        query('.cont', style({opacity:0, transform: 'translateX(-100%)'})),
+        query('.cont',stagger('500ms',[
+          animate('500ms ease-in', style({opacity: 1, transform: 'translateX(0)'})),
         ])),
         query('.cont', [
           animate(0, style('*'))

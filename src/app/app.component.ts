@@ -20,10 +20,7 @@ import {
   animations: []
 })
 export class AppComponent {
-  
 
   ngOnInit(){
-
   }
-  
 }
